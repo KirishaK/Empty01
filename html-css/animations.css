@@ -1,0 +1,10 @@
+@keyframes example{
+    0% { background-color: aqua;}
+    100%{ background-color: blueviolet;}
+}
+
+.box{
+    width: 100px;
+    height: 150px;
+    animation: example 2s infinite;
+}
